@@ -75,22 +75,22 @@ section >img{
 }
 
 .pic-section1 {
-  background: url(/assets/img/Pic_Seo1/GiaDinh/anh-gia-dinh-1.jpg) ;
+  background: url(../img/Pic_Seo1/GiaDinh/anh-gia-dinh-1.jpg) ;
   background-repeat: no-repeat;
   background-size:cover;
 }
 .pic-section2 {
-  background: url(/assets/img/Pic_Seo1/AnhCuoi/anh-cuoi-1.png) ;
+  background: url(../img/Pic_Seo1/AnhCuoi/anh-cuoi-1.png) ;
   background-repeat: no-repeat;
   background-size:cover;
 }
 .pic-section3 {
-  background: url(/assets/img/Pic_Seo1/KyYeu/Anh-ky-yeu-5.png) ;
+  background: url(../img/Pic_Seo1/KyYeu/Anh-ky-yeu-5.png) ;
   background-repeat: no-repeat;
   background-size:cover;
 }
 .pic-section4 {
-  background: url(/assets/img/Pic_Seo1/AnhNgoaiCanh/Anh-ngoai-canh-5.png) ;
+  background: url(../img/Pic_Seo1/AnhNgoaiCanh/Anh-ngoai-canh-5.png) ;
   background-repeat: no-repeat;
   background-size:cover;
 }
