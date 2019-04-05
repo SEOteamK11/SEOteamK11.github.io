@@ -1,0 +1,118 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style the header */
+.header {
+  background-color: #fffefe;
+  padding: 20px;
+  text-align: center;
+}
+.logo{
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(216, 211, 211, 0.932);
+}
+
+/* Style the topnav links */
+.topnav a {
+  margin: 0 auto;
+  display: inline-block;
+  color: #0295da;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section >img{
+  width: 100%;
+}
+.icon-media{
+  margin-bottom: 20px;
+  background: none;
+}
+.contact-form{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.pic-section1 {
+  background: url(/assets/img/Pic_Seo1/GiaDinh/anh-gia-dinh-1.jpg) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.pic-section2 {
+  background: url(/assets/img/Pic_Seo1/AnhCuoi/anh-cuoi-1.png) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.pic-section3 {
+  background: url(/assets/img/Pic_Seo1/KyYeu/Anh-ky-yeu-5.png) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.pic-section4 {
+  background: url(/assets/img/Pic_Seo1/AnhNgoaiCanh/Anh-ngoai-canh-5.png) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+footer{
+  background: rgba(19, 18, 18, 0.575);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 100px;
+  color: aliceblue
+}
+footer>div{
+  width: 50%;
+  height: 20px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+button{
+  border-radius: 5px;
+  border: none;
+  background: rgb(0, 0, 0);
+  padding: 5px 20px;
+  color: rgb(245, 237, 237);
+}
