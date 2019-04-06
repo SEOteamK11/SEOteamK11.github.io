@@ -9,12 +9,6 @@ $(document).ready(function(){
     {
         console.log(i); 
         tempTag=$("section >img").eq(i);
-
-        console.log(tempTag.width());
-        console.log(tempTag.height());
-        console.log($(document).width());
-        console.log($(window).width());
-
         temp=$(window).width()*tempTag.height()/(tempTag.width());
         console.log(temp)
         $("section").eq(i).css({"height":temp+"px"});
