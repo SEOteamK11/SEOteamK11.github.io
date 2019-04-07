@@ -74,26 +74,7 @@ section >img{
   margin: 0 auto;
 }
 
-.pic-section1 {
-  background: url(../img/Pic_Seo1/GiaDinh/Anh-gia-dinh-1.jpg) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.pic-section2 {
-  background: url(../img/Pic_Seo1/AnhCuoi/anh-cuoi-1.png) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.pic-section3 {
-  background: url(../img/Pic_Seo1/KyYeu/Anh-ky-yeu-5.png) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.pic-section4 {
-  background: url(../img/Pic_Seo1/AnhNgoaiCanh/Anh-ngoai-canh-5.png) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
+
 footer{
   background: rgba(19, 18, 18, 0.575);
   display: flex;
