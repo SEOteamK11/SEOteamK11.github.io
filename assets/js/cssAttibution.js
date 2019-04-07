@@ -13,7 +13,7 @@ $(document).ready(function(){
         console.log(temp)
         $("section").eq(i).css({"height":temp+"px"});
     }
-    $(".pic-section1").css({"background":"url(assets/img/Pic_Seo1/GiaDinh/anh-gia-dinh-1.jpg)","background-size":"cover","background-repeat": "no-repeat"})
+    $(".pic-section1").css({"background":"url(assets/img/Pic_Seo1/GiaDinh/Anh-gia-dinh-1.jpg)","background-size":"cover","background-repeat": "no-repeat"})
     $(".pic-section2").css({"background":"url(assets/img/Pic_Seo1/AnhCuoi/anh-cuoi-1.jpg)","background-size":"cover","background-repeat": "no-repeat"})
     $(".pic-section3").css({"background":"url(assets/img/Pic_Seo1/KyYeu/anh-ky-yeu-5.jpg)","background-size":"cover","background-repeat": "no-repeat"})
     $(".pic-section4").css({"background":"url(assets/img/Pic_Seo1/AnhNgoaiCanh/anh-ngoai-canh-5.jpg)","background-size":"cover","background-repeat": "no-repeat"})
