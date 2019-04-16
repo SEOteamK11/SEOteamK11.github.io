@@ -4,6 +4,7 @@
 }
 
 body {
+  height: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -55,15 +56,26 @@ body {
   clear: both;
 }
 
-section{
+.section{   
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: flex;  
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
-section >img{
+.section >img{
   width: 100%;
+
+}
+h1{
+  padding: 10px 0;
+}
+h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 .icon-media{
   margin-bottom: 20px;
@@ -74,27 +86,10 @@ section >img{
   margin: 0 auto;
 }
 
-.pic-section1 {
-  background: url(../img/Pic_Seo1/GiaDinh/Anh-gia-dinh-1.jpg) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.pic-section2 {
-  background: url(../img/Pic_Seo1/AnhCuoi/anh-cuoi-1.png) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.pic-section3 {
-  background: url(../img/Pic_Seo1/KyYeu/Anh-ky-yeu-5.png) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-.pic-section4 {
-  background: url(../img/Pic_Seo1/AnhNgoaiCanh/Anh-ngoai-canh-5.png) ;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
 footer{
+  margin-top: 20px;
+  width: 100%;
+  float: bottom;
   background: rgba(19, 18, 18, 0.575);
   display: flex;
   flex-direction: row;
@@ -115,4 +110,16 @@ button{
   background: rgb(0, 0, 0);
   padding: 5px 20px;
   color: rgb(245, 237, 237);
+}
+.exhibition-album{
+  display: flex;
+  flex-direction: row;
+}
+.exhibition-album > div{
+  width: 50%;
+}
+#up-arrow{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 }
