@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
     $("h2").hide();
    // Get the modal
